@@ -1,0 +1,240 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <link rel="icon" href="https://logos.textgiraffe.com/logos/logo-name/Saffron-designstyle-smoothie-m.png" sizes="32x32" />
+      <meta name="description" content=" plants" />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <title >plants  </title>
+        <style>
+          
+            *{
+                margin: 0;padding: 0;box-sizing: border-box;
+            }
+          
+            #wrapper{
+                width:90%;
+                height:800px ;margin:0px auto;box-shadow: 0px 0px 13px #333;
+                padding-top:15px;
+                padding-left: 10px;
+            }
+            #wrapper .left{
+                object-fit: cover;
+                width:50%;height:100%;background: rgb(255, 255, 255);
+                float:left;justify-content: center;text-align: center;
+               border-right:1px solid gainsboro ;
+    
+            }
+            #wrapper .left .wrap-icon{
+                width:40px;height:40px;
+                border-radius: 50%;
+                border:2px solid green;
+                font-size: 30px;
+                padding-top: 2px ;
+                cursor: pointer;
+                transition: all 0.6s ease;
+            }
+            #wrapper .left .wrap-icon i{
+                transition: all 0.6s ease;
+            }
+            #wrapper .left .wrap-icon i:hover{
+                color:aqua;
+            }
+            #wrapper .left .wrap-icon:hover{
+                transform: translateY(10px);
+            }
+            .left #main-img{
+                width:430px;
+                height:300px;
+                object-fit: cover;
+              -webkit-object-fit:cover;
+                -moz-object-fit:cover;
+                
+            }
+            .small-cover{
+                width:100%;
+                height:12%;background: rgb(255, 255, 255);
+                overflow-x: scroll;
+               overflow-y: hidden;
+               
+            }
+            .small-cover p{
+                height:140px;display:flex;width:140%;
+    object-fit: cover;
+            }
+            .small-cover::webkit-scrollbar{
+                height:0px;
+              
+            }
+            .small-cover p img{
+                width:100px;height:77px;
+                cursor: pointer;border: 2px solid rgb(251, 249, 249);
+                object-fit: cover;
+
+            }
+            .small-cover p img:hover{
+                border: 2px solid rgb(231, 22, 22);
+            }
+            .right{
+                float:right;
+                width:50%;height:90%;background: rgb(255, 255, 255);
+            }
+            .right .info{
+               display: flex;flex-direction: column;
+               background: rgb(255, 255, 255);text-align: center;
+            }
+            .right .info span{
+                font-size: 20px;color:black;
+            }
+            .right .info h2{
+                font-size: 30px;
+            }
+            .right .get-produce{
+                width:200px;height:50px;font-size: 17px;
+                border-radius: 8px;;justify-content: center;text-align: center;
+                background-color: #993399;color:white;font-family: 'roboto';
+            position: relative;left:189px;
+            top:43px;cursor: pointer;
+            }
+          .right .get-produce h3{
+            position:relative;color:white;
+            top:8px;}
+            .right .get-produce:hover{
+                background-color: #3366FF;
+            }
+            .right .text-introduce{
+                display: block;font-size: 19px;padding: 5px 6px ;font-family: 'roboto';color:black;
+            }
+            .left ul{
+                display:block;padding-left:20px;
+                font-size: 19px;text-align: justify;
+                color:black;
+              
+            }
+    
+            @media (max-width: 600px){
+                #wrapper{
+                  position:relative;
+                  right:30px;
+                    height: 1600px ;width: 117%; z-index:550;
+                }
+                #wrapper .left{
+                    width:100%;height:44%;
+                 
+                }
+                #wrapper .left ul{
+                    position: relative;top:20px;font-size: 22px ;
+                }
+                .small-cover{
+                    width:100%;height:17%;
+                }
+                .right{
+                    float:left;width:100%;
+                }
+                 .right .text-introduce {
+                    font-size: 23px;
+                    padding:30px;
+                }
+                .right .info span{
+                    font-weight: bold ;
+                }
+              .right .get-produce{
+                position:relative;
+               left:110px;
+              }
+              #wrapper .left .wrap-icon{
+                  position: relative;left:30px;
+              }
+           
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="left">
+                <div class="wrap-icon" onclick="goHome()">
+                    <i class="fas fa-arrow-left" onclick="goHome()"></i>
+                </div>
+                <img  id="main-img" src="https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant3-free-img.jpg" alt="main-image"/>
+                <div class="small-cover">
+                    <p>
+                    <img alt="" src="https://images.unsplash.com/photo-1463154545680-d59320fd685d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+                    <img alt="" src="https://lamtho.vn/wp-content/uploads/2019/08/Trong-cay-con-nha-dam-11.jpg" />
+                    <img alt="" src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+                    <img alt="" src="https://images.unsplash.com/photo-1509587584298-0f3b3a3a1797?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+                    <img alt="" src="https://images.unsplash.com/photo-1509937528035-ad76254b0356?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+                  <img src="https://images.unsplash.com/photo-1519336056116-bc0f1771dec8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                  <img src="https://images.unsplash.com/photo-1565701175719-5ef844931183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                <img src="https://images.unsplash.com/photo-1516822290226-f5634e1eec35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                </p>
+                </div>
+                <ul>
+                <li>Tên sản phẩm: Cactus Salam (Dòng cao cấp)</li>
+                <li> Xuất xứ: IRAN</li>
+                <li> Tuổi Saffron: được trồng 4-5 năm</li>
+                <li> Chứng nhận: ISO3632</li>
+                <li> Quy cách đóng gói: 1 lọ 1gr</li>
+                <li>Bảo quản: để nơi kho ráo, thoáng mát, tránh ánh nắng</li>
+                <li> Hạn sử dụng: được in trên vỏ hộp</li></ul>
+            </div>
+            <div class="right">
+    <div class="info">
+        <h2> Cactus Sama dòng cao cấp </h2>
+    
+    <span> Giá ban đầu: <del>350.000vnd </del></span>
+    <span> Khuyến mãi còn:250.000vnd </span>
+    </div>
+    <div class="text-introduce">
+        <p>
+           
+            Saffron là gì? Saffron được các Đầu bếp chuyên nghiệp thường xuyên sử dụng và gọi là “gia vị quý tộc” bởi chúng thực sự rất đắt đỏ và có nhiều công dụng tốt cho sức khỏe như: chống bệnh trầm cảm, suy nhược cơ thể, điều trị giấc ngủ, hỗ trợ chị em làm đẹp,… Không chỉ vậy, chỉ cần một lượng rất nhỏ, Saffron cũng đã có tác dụng lớn trong việc kiến tạo hương vị, tăng độ đậm đà và hấp dẫn cho món ăn.<br />
+           
+            Saffron có nguồn gốc ở Hy Lạp hoặc Tây Nam Á, được trồng lần đầu tiên ở Hy Lạp vào 3.000 năm trước, sau đó đưa tới các khu vực khác như Bắc Phi, Bắc Mỹ và châu Đại Dương. Hiện tại, Iran được coi là “thủ phủ” của nghệ tây với sản lượng chiếm đến 90% Saffron toàn thế giới. Do có điều kiện khí hậu và thổ nhưỡng đặc biệt phù hợp với sự sinh trưởng của nghệ tây nên nghệ tây Iran có mùi thơm đặc biệt, đem lại nguồn thu khổng lồ cho đất nước này. Một số khu vực khác như Tây Ban Nha, Ấn Độ, Thổ Nhĩ Kỳ và Ma Rốc cũng khá nổi tiếng về cây nghệ tây.
+            
+           </p>
+    </div>
+    <div class="get-produce" onclick="buy()">
+    <h3>Mua Sản Phẩm</h3>
+    </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".small-cover > p img").click(function(){
+                    let imgPath = $(this).attr("src");
+                    $("#main-img").attr("src" , imgPath);
+                   
+                })
+            })
+        </script>
+        <script>
+            function goHome(){
+                window.location.href=('./main.html');
+            }
+
+            function buy(){
+
+Swal.fire({
+  title: 'Do you want to buy this plant?',
+  showDenyButton: true,
+  showCancelButton: true,
+  confirmButtonText: `Buy`,
+  denyButtonText: `Don't Buy`,
+}).then((result) => {
+  /* Read more about isConfirmed, isDenied below */
+  if (result.isConfirmed) {
+    Swal.fire('Buy Success!', '', 'success')
+  } else if (result.isDenied) {
+    Swal.fire('Changes are not saved', '', 'info')
+  }
+})
+  
+}
+        </script>
+    </body>
+    </html>

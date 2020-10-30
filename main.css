@@ -1,0 +1,1060 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    
+}
+.wrapper{
+    min-width: 100%;
+    height:4300px;
+    overflow: hidden;
+    position: relative;
+   
+}
+.wrapper header{
+    height:60px;
+    background-color: rgb(255, 255, 255) ;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.wrapper header .wrap-hambuger{
+    width:200px;
+    height:100%;
+   
+    display:flex;
+    display:none;
+    position: absolute;
+   left:200px;
+}
+.wrapper header .wrap-hambuger i{
+    font-size: 30px;
+
+}
+.wrapper header .wrap-hambuger .fa{
+    position: relative;top:17px;left:10px;
+}
+.wrapper header .wrap-hambuger .fas{
+    position: relative;top:17px;left:70px;
+}
+.wrapper header nav{
+    width:300px;
+    height:300px;
+    position: absolute;
+    display:none;
+    top:60px ;
+    z-index:20;
+    left:60px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    box-shadow: 0px 0px 6px #333 ;
+    animation: zoom 0.4s ease-in-out;
+    -webkit-animation: zoom 0.4s ease-in-out;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0 );
+        -webkit-transform: scale(0 );
+        -moz-transform: scale(0 );
+        -ms-transform: scale(0 );
+        -o-transform: scale(0 );
+}
+100%{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+}
+@-moz-keyframes zoom {
+    0%{
+        transform: scale(0 );
+        -webkit-transform: scale(0 );
+        -moz-transform: scale(0 );
+        -ms-transform: scale(0 );
+        -o-transform: scale(0 );
+}
+100%{
+    transform: scale(1 );
+    -webkit-transform: scale(1 );
+    -moz-transform: scale(1 );
+    -ms-transform: scale(1 );
+    -o-transform: scale(1 );
+}
+
+}
+.wrapper header nav li{
+    line-height: 50px ;
+}
+.wrapper header nav li a{
+    font-size: 23px ;
+    text-decoration: none;
+    color:black;
+
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    z-index:10;width:100%;
+}
+.wrapper header .header-left{
+    width:400px;
+    height:100%;
+    position:relative;
+    display: flex;
+}
+.wrapper header .header-left img{
+    width:40%;height:100%;
+}
+.wrapper header .header-left h1{
+font-weight: bold;
+text-transform: uppercase;
+position: relative;top:8px;
+left:0px;
+}
+.wrapper header .header-right{
+    width:600px;
+    height:100%;position: relative;bottom:0px;left:300px;
+   
+}
+.wrapper header .header-right ul{
+    display: flex;flex-direction: row;
+list-style-type: none;
+}
+.wrapper header .header-right ul li{
+    padding:13px 15px;
+    line-height: 30px ;
+}
+.wrapper header .header-right ul li a{
+    text-decoration: none;font-size: 20px;
+    color:#1a1a1a;
+}
+.wrapper header .header-right ul li a .fa{
+    font-size: 36px;
+}
+.wrapper header .header-right ul li a .fa:hover{
+    color:red;
+}
+.wrapper header .header-right ul li a:hover{
+    text-decoration: underline;
+}
+.wrapper .content{
+    width:100vw;
+    height:89%;
+  background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/CTA-bg.jpg);
+}
+.wrapper .content .first-div .first-div_left h2{
+    position: relative;top:70px;color: rgb(41, 39, 39);
+}
+.wrapper .content .first-div{
+    width:100vw;
+    height:460px;
+    background-image:
+    url(https://4.bp.blogspot.com/-zS5kidGWMCc/WLBCCXRit8I/AAAAAAAAD8s/DJGPylczN1ktatjSsJRsLAHoV7ADHp0hgCLcB/s1600/cay-nha-dam.PNG);
+    background-size: cover ;
+    background-position:right center  ;
+    background-repeat:no-repeat ;
+    padding-top:10px;
+    padding-left: 30px ;
+    font-family: 'roboto';
+    border-radius:0px 0px 10px 10px  ;
+    -webkit-border-radius:0px 0px 10px 10px  ;
+    -moz-border-radius:0px 0px 10px 10px  ;
+    -ms-border-radius:0px 0px 10px 10px  ;
+    -o-border-radius:0px 0px 10px 10px  ;
+}
+
+.wrapper .content .first-div .cover_h1 h1{
+    font-size: 54px;font-family: 'roboto ';
+    position: relative;
+    color: rgb(37, 36, 36);
+}
+.wrapper .content .first-div .cover_h1{
+    background-color:transparent;
+    width:430px;
+    height:200px;
+    position: relative;top:70px;
+    cursor: default;
+    
+}
+.wrapper .content .first-div .shopnow{
+    width:140px;
+    height:40px;
+    border: 1px solid rgb(250, 39, 39);
+    border-radius: 13px ;
+    -webkit-border-radius: 16px ;
+    -moz-border-radius: 13px ;
+    -ms-border-radius: 13px ;
+    -o-border-radius: 13px ;
+    
+   text-align: center;
+    cursor: pointer ;
+    position: relative;
+    top:80px;
+    background-color: #FC7978 ;
+}
+.wrapper .content .first-div .shopnow h3{
+    color:#ffffff; 
+    position: relative;top:7px;
+}
+.wrapper .content .first-div .shopnow:hover{
+background-color: #fc6b6b ;
+}
+
+
+
+.wrapper .content .colection{
+    width:100%;
+    height:100px;
+    display: flex;flex-direction: row;background-color: rgb(239, 243, 242);
+}
+.wrapper .content .colection .plant-colection{
+   position: relative;left:150px;display: flex;
+   padding-top: 30px ;
+}
+
+.wrapper .content .colection .plant-colection .elementor_icon{
+   
+    background-color: rgb(206, 190, 190);
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;color:green;
+
+}
+.wrapper .content .colection .plant-colection .text_colection,
+.wrapper .content .colection .moneyback .text_moneyback,
+.wrapper .content .colection .freeship .text_freeship{
+    font-weight: 100;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper .content .colection .plant-colection .text_colection h4,
+.wrapper .content .colection .moneyback .text_moneyback h4,
+.wrapper .content .colection .freeship .text_freeship h4{
+color:grey;font-weight: normal;
+}
+.wrapper .content .colection .freeship{
+position: relative;left:302px;
+display: flex;
+padding-top: 30px;
+}
+.wrapper .content .colection .freeship .elementor_icon{
+
+    background-color: rgb(206, 190, 190);
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;color:green;
+    
+}
+.wrapper .content .colection .moneyback{
+position: relative;left:470px;display: flex;
+padding-top: 30px ;
+
+}
+.wrapper .content .colection .moneyback .elementor_icon{
+
+    background-color: rgb(206, 190, 190);
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;color:green;
+}
+.wrapper .content .colection .moneyback .elementor_icon i,
+.wrapper .content .colection .plant-colection .elementor_icon i,
+.wrapper .content .colection .freeship .elementor_icon i{
+    position: relative;top:6px;
+}
+.wrapper .content .second-colection{
+    display: flex;flex-direction: row;background-color: rgb(236, 240, 235);
+    height:560px;
+    padding-top: 50px ;
+  
+
+}
+.wrapper .content .second-colection .colection_item1{
+        width:360px ;
+        box-shadow: 0 0 5px #333;
+        height:97%;
+        background-image:
+        url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant6-free-img.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 60px ;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition:all 0.4s ease-in-out ;
+        -webkit-transition:all 0.4s ease-in-out ;
+        -moz-transition:all 0.4s ease-in-out ;
+        -ms-transition:all 0.4s ease-in-out ;
+        -o-transition:all 0.4s ease-in-out ;
+      
+}
+.wrapper .content .second-colection .colection_item1 .colection_item-text,
+.wrapper .content .second-colection .colection_item2 .colection_item-text,
+.wrapper .content .second-colection .colection_item3 .colection_item-text{
+    height:90px;width:100%;position: relative;
+    top:362px;padding: 10px 12px;
+    font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.wrapper .content .second-colection .colection_item1:hover,
+.wrapper .content .second-colection .colection_item2:hover,
+.wrapper .content .second-colection .colection_item3:hover{
+box-shadow: 0 0 10px #333;
+
+}
+.wrapper .content .second-colection .colection_item1 .colection_item-text a,
+.wrapper .content .second-colection .colection_item2 .colection_item-text a,
+.wrapper .content .second-colection .colection_item3 .colection_item-text a{
+    text-decoration: none;position: relative;top:20px;
+    color:#fc6b6b;
+    font-weight: bold;
+}
+.wrapper .content .second-colection .colection_item1 .colection_item-text a:hover,
+.wrapper .content .second-colection .colection_item2 .colection_item-text a:hover,
+.wrapper .content .second-colection .colection_item3 .colection_item-text a:hover{
+    color:black;
+}
+.wrapper .content .second-colection .colection_item2{
+    width:360px ;
+    box-shadow: 0 0 5px #333;
+    height:97%;
+    position: relative;left: 120px;
+    background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus2-free-img.jpg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition:all 0.4s ease-in-out ;
+        -webkit-transition:all 0.4s ease-in-out ;
+        -moz-transition:all 0.4s ease-in-out ;
+        -ms-transition:all 0.4s ease-in-out ;
+        -o-transition:all 0.4s ease-in-out ;
+}
+.wrapper .content .second-colection .colection_item3{
+    width:360px ;
+   box-shadow: 0 0 5px #333;
+    
+    height:97%;
+    position: relative;left: 180px;
+    background-image: url(https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant4-free-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+  transition:all 0.4s ease-in-out ;
+        -webkit-transition:all 0.4s ease-in-out ;
+        -moz-transition:all 0.4s ease-in-out ;
+        -ms-transition:all 0.4s ease-in-out ;
+        -o-transition:all 0.4s ease-in-out ;
+}
+
+.wrapper .content .featured-plants{
+    width:100%;height:900px;
+    position: relative;
+
+   
+background: rgb(255, 255, 254);
+
+}
+.wrapper .content .featured-plants .featured-plants_text{
+width:100% ;text-align: center;
+
+}
+.wrapper .content .featured-plants .featured-plants_text h1{
+    font-weight: 900;
+    font-family: 'Poppins',sans-serif;
+}
+.wrapper .content .featured-plants .featured-plants_text hp{
+    
+    font-family: 'roboto'
+}
+.wrapper .content .featured-plants .feature-plants_produces{
+    display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+  grid-gap: 10px 10px;
+  background: rgb(249, 250, 249);
+  height:93%;
+ padding:40px;
+}
+.wrapper .content .featured-plants .feature-plants_produces .thumbnail{
+   background-color: rgb(255, 255, 255);
+  height:100%;
+  width:100%; padding:20px;
+ 
+  
+
+}
+.wrapper .content .featured-plants .feature-plants_produces .thumbnail a >img{
+    width:100%;
+    object-fit:contain;
+    height:100%;
+    position: relative;bottom:37px;
+
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text1{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:60px;top:394px;
+
+   
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text1 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text2 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text3 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text4 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text5 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text6 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text7 .rating,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text8 .rating
+
+
+{
+    color:#fc6b6b;
+}
+
+
+
+
+.wrapper .content .featured-plants .feature-plants_produces .produce-text1 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text2 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text3 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text4 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text5 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text6 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text7 p,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text8 p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text1 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text2 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text3 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text4 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text5 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text6 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text7 .name,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text8 .name{
+    font-family:'roboto';
+   color:gray;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text1 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text2 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text3 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text4 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text5 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text6 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text7 .price,
+.wrapper .content .featured-plants .feature-plants_produces .produce-text8 .price{
+   font-family: 'Times New Roman', Times, serif;
+ font-weight: bolder;
+ color:#333;
+ font-size: 17px;
+ 
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text2{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:391px;top:394px;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text3{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:723px;
+top:394px;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text4{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:1054px;top:394px;
+}
+
+
+
+.wrapper .content .featured-plants .feature-plants_produces .produce-text5{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:60px;
+top:777px;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text6{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:393px;
+top:777px;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text7{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:724px;top:777px;
+}
+.wrapper .content .featured-plants .feature-plants_produces .produce-text8{
+    position: absolute  ;
+    width:230px;
+    background-color:transparent;
+left:1054px;top:777px ;
+}
+.wrapper .content .need-help{
+    width:100%;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;flex-direction: row;
+}
+.wrapper .content .need-help .need-help_left{
+width:30%;padding-top:100px;
+padding-left:60px;
+
+}
+.wrapper .content .need-help .need-help_left a{
+    transition: all 0.6s ease ;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#fc6b6b;
+    -webkit-transition: all 0.6s ease ;
+    -moz-transition: all 0.6s ease ;
+    -ms-transition: all 0.6s ease ;
+    -o-transition: all 0.6s ease ;
+    position: relative;top:50px;
+}
+.wrapper .content .need-help .need-help_left a:hover{
+ 
+    color:#302e2e;
+}
+
+.wrapper .content .need-help .need-help_right{
+    width:60%;padding-top:100px;
+    
+}
+.wrapper .content .need-help .need-help_right p{
+    font-size: 22px;
+}
+.wrapper .content .hot-girls{
+    width:100%;
+    height:660px;
+    background-color: rgb(255, 255, 255);
+    display: flex;flex-direction: row;
+    padding:20px;
+}
+
+.wrapper .content .hot-girls .one-girl{
+width:45%;
+height:100%;
+background: rgb(253, 253, 253);
+
+}
+.wrapper .content .hot-girls .one-girl .main-text{
+   
+    padding:10px 20px;
+    height:170px;
+}
+.wrapper .content .hot-girls .one-girl .main-text h1{
+    text-transform: uppercase;
+}
+.wrapper .content .hot-girls .one-girl .main-text p{
+    position: relative;top:30px;
+    font-size: 20px;
+}
+.wrapper .content .hot-girls .one-girl .widget_girl-cover{
+    width:100%;
+    height:300px;
+    display:flex;
+   
+    box-sizing: border-box;
+    position: relative;top:60px;
+
+}
+.wrapper .content .hot-girls .one-girl .widget_girl-cover .wrap-girl_img{
+    width:80%;
+    height:100%;
+    object-fit: cover;
+   
+   
+}
+.wrapper .content .hot-girls .one-girl .widget_girl-cover .wrap-girl_img img{
+    width:100%;height:100%;
+object-fit: cover;  border-radius: 30px ;
+-webkit-border-radius: 30px ;
+-moz-border-radius: 30px ;
+-ms-border-radius: 30px ;
+-o-border-radius: 30px ;
+}
+
+.wrapper .content .hot-girls .one-girl .widget_girl-cover .wrap-text{
+   position: relative;
+  width:100%;
+   top:20px;box-sizing: border-box;
+   padding:20px;
+}
+.wrapper .content .hot-girls .one-girl .widget_girl-cover .wrap-text p{
+    font-size: 20px;color:rgb(107, 102, 102);
+}
+.wrapper .content .hot-girls .one-girl .widget_girl-cover .wrap-text .wrap-infor{
+    position: relative;top:70px;
+}
+.wrapper .content .hot-girls .one-girl .widget_girl-cover .wrap-text .wrap-infor h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.wrapper .content .hot-girls .two-girl{
+width:50%;
+height:100%;
+}
+
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1{
+    width:100%;
+    height:260px;
+    display:flex;
+   
+    box-sizing: border-box;
+    position: relative;top:60px;
+
+}
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-girl_img{
+    width:50%;
+    height:100%;
+    object-fit: cover;
+}
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-girl_img img,
+.wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-girl_img img
+{
+    width:90%;
+    height:90%;
+    object-fit: cover;
+    border-radius:16px  ;
+    -webkit-border-radius:16px  ;
+    -moz-border-radius:16px  ;
+    -ms-border-radius:16px  ;
+    -o-border-radius:16px  ;
+}
+
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-text,
+.wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-text{
+    position: relative;
+   width:100%;
+    top:20px;box-sizing: border-box;
+    padding:20px;
+ }
+
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-text p,
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-text p
+ {
+     font-size: 20px;color:rgb(107, 102, 102);
+ }
+
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-text .wrap-infor,
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-text .wrap-infor
+ {
+     position: relative;top:70px;
+ }
+
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-text .wrap-infor h4,
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-text .wrap-infor h4
+ {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+ }
+.wrapper .content .hot-girls .two-girl .widget_girl-cover2{
+    width:100%;
+    height:260px;
+    display:flex;
+   
+    box-sizing: border-box;
+    position: relative;top:60px;
+
+}
+.wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-girl_img{
+    width:50%;
+    height:100%;
+    object-fit: cover;
+}
+
+.wrapper .content .shop-down{
+    width:100%;height:400px;
+    background-color: rgb(235, 229, 229);
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+}
+.wrapper .content .shop-down .shop-down_text{
+   width:500px;
+  
+  position: relative;
+  left:400px;
+}
+.wrapper .content .shop-down .shop-down_text h1{
+font-size: 40px ;
+}
+.wrapper .content .shop-down .divp {
+width:650px;
+position: relative;
+left:320px;
+top:20px;
+
+}
+.wrapper .content .shop-down .divp p{
+    font-size: 20px;
+}
+.wrapper .content .shop-down .go-shop{
+    width:140px;
+    height:43px;
+    background: #FC7978;
+    position: relative;
+    left:560px;
+    top:80px;
+    padding-top: 10px;
+    border-radius: 15px ;
+    -webkit-border-radius: 15px ;
+    -moz-border-radius: 15px ;
+    -ms-border-radius: 15px ;
+    -o-border-radius: 15px ;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+    
+}
+.wrapper .content .shop-down .go-shop:hover{
+    background-color: #fd6b6b;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    background: rgb(235, 238, 235);
+    width:100%;
+    height:10%;
+    justify-content: center;
+}
+footer .footer-item1{
+    padding-top: 30px;
+    width:30%;
+    height:80%;
+    background-color:  rgb(229, 230, 222);
+}
+footer .footer-item1 p{
+position: relative;top:40px;
+font-size: 20px;
+}
+footer .footer-item2{
+    padding-top: 30px ;
+    width:20%;
+    height:80%;
+    background-color:rgb(229, 230, 222);
+    justify-content: center;
+    text-align: center;
+    }
+ footer .footer-item2>img{
+     width:100px;height:100px;
+
+ }
+ footer .footer-item2 ul{
+     display: flex;list-style-type: none;
+ 
+    padding-left:60px;
+ }
+ footer .footer-item2 ul li{
+     padding:10px 10px;background-color: #fff;
+
+    
+ }
+
+footer .footer-item3{
+ width:20%;
+     height:80%;
+     background-color: rgb(229, 230, 222);
+ text-align: center;
+ justify-content: center;
+ padding-top: 30px ;
+ 
+    }
+    footer .footer-item3 ul {
+list-style-type: none;
+    }
+    footer .footer-item3 ul li {
+        padding-top:14px;
+     font-size:17px;
+    }
+    footer .footer-item3 ul li a{
+        text-decoration: none;
+        color:#302e2e;
+    }
+    footer .footer-item3 ul li a:hover{
+        color:rgb(7, 247, 19);
+    }
+  footer .footer-item4{
+      padding-top: 30px ;
+   width:20%;
+  height:80%;
+  background-color:rgb(229, 230, 222);
+  text-align: center;
+  justify-content: center;
+  }
+  footer .footer-item4 ul {
+    list-style-type: none;
+        }
+ footer .footer-item4 ul li {
+            padding-top:14px;
+         font-size:17px;
+        }
+footer .footer-item4 ul li a{
+            text-decoration: none;
+            color:#302e2e;
+        }
+ footer .footer-item4 ul li a:hover{
+        color:#1af806;
+        }
+footer .copyright{
+    position: absolute;
+    background-color: rgb(248, 245, 245);
+    width:100%;
+    height:40px;
+   top:4246px;
+}
+footer .copyright p{
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px){
+    .wrapper{
+        height:7000px;
+    }
+    .wrapper header .wrap-hambuger{
+        display:block;
+
+    }
+    
+  .wrapper  header .header-left {
+display:flex;
+
+    }
+   .wrapper header .header-left h1{
+       font-size: 18px;
+        left:0px;top:18px;
+    }
+  .wrapper  header .header-right ul li a{
+display: none;
+    }
+    .wrapper .content{
+        height:86%;
+    }
+    .wrapper .content .first-div{
+        height:300px;
+    }
+    .wrapper .content .first-div .cover_h1{
+        width:200px;
+    }
+    .wrapper .content .first-div .cover_h1 h1{
+        font-size: 30px ;color:#07d8e7;
+    }
+    .wrapper .content .first-div .first-div_left h2{
+        font-size: 19px;color:#0a0a0a;
+    }
+    .wrapper .content .first-div .shopnow{
+        top:4px;left:170px;
+    }
+    .wrapper .content .colection{
+        display:flex;
+        flex-direction: column;
+        height:214px;
+    }
+    .wrapper .content .colection .plant-colection{
+        width:100%;left:10px;
+    }
+    .wrapper .content .colection .freeship{
+        width:100%;left:10px;
+    }
+    .wrapper .content .colection .moneyback{
+        width:100%;left:10px;
+    }
+    .wrapper .content .second-colection {
+        display: flex;flex-direction: column;
+        height:600px;
+    }
+    .wrapper .content .second-colection .colection_item1,
+    .wrapper .content .second-colection .colection_item2,
+    .wrapper .content .second-colection .colection_item3
+    {
+        height:100%;
+        left:4px ;
+        box-shadow: 0px 0px 0px #fff;
+    }
+
+    .wrapper .content .second-colection .colection_item1:hover,
+    .wrapper .content .second-colection .colection_item2:hover,
+    .wrapper .content .second-colection .colection_item3:hover
+    {
+        
+        box-shadow: 0px 0px 0px #fff;
+    }
+    .wrapper .content .second-colection .colection_item1 .colection_item-text,
+    .wrapper .content .second-colection .colection_item2 .colection_item-text,
+    .wrapper .content .second-colection .colection_item3 .colection_item-text
+    {
+        top:0;left:140px;
+        width:60%;
+    }
+    .wrapper .content .featured-plants .feature-plants_produces{
+        display:flex;
+        flex-direction: column;
+    }
+    .wrapper .content .featured-plants{
+        height:2549px;
+    }
+    .wrapper .content .featured-plants .feature-plants_produces .thumbnail{
+        height:100%;width:100%;
+        padding:0;
+    }
+    .wrapper .content .featured-plants .feature-plants_produces .thumbnail a>img{
+        width:100%;
+    }
+    .wrapper .content .featured-plants .feature-plants_produces .produce-text1 {
+        top:290px ;
+    }
+    .wrapper .content .featured-plants .feature-plants_produces .produce-text2 {
+top:580px ;
+left:52px ;
+    }
+    .wrapper .content .featured-plants .feature-plants_produces .produce-text3 {
+      top:860px;
+        left:52px ;
+     }
+     .wrapper .content .featured-plants .feature-plants_produces .produce-text4 {
+        top:1150px;
+          left:52px ;
+     }
+     .wrapper .content .featured-plants .feature-plants_produces .produce-text5 {
+        top:1440px;
+          left:52px ;
+       }
+       .wrapper .content .featured-plants .feature-plants_produces .produce-text6 {
+      
+          left:52px ;
+          top:1720px;
+       }
+
+       .wrapper .content .featured-plants .feature-plants_produces .produce-text7 {
+      
+        left:52px ;
+        top:2010px;
+     }
+     .wrapper .content .featured-plants .feature-plants_produces .produce-text8 {
+      
+        left:52px ;
+        top:2340px;
+     }
+.wrapper .content .need-help{
+   height:600px;
+    display: flex;flex-direction: column;
+}
+.wrapper .content .need-help .need-help_left{
+    width:100%;
+}
+.wrapper .content .need-help .need-help_right{
+width:100%;
+padding-left:8px;
+}
+.wrapper .content .hot-girls{
+    display: flex;flex-direction: column;
+    height:1400px;
+}
+.wrapper .content .hot-girls .one-girl{
+    width:100%;
+    height:74%;
+}
+.wrapper .content .hot-girls .two-girl{
+    width:100%;height:70%;
+   
+}
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-text .wrap-infor,
+ .wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-text .wrap-infor{
+top:10px;
+}
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-girl_img img, 
+.wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-girl_img img{
+width:100%;
+}
+
+.wrapper .content .hot-girls .two-girl .widget_girl-cover1 .wrap-text, 
+.wrapper .content .hot-girls .two-girl .widget_girl-cover2 .wrap-text{
+padding:10px;
+left:20px;
+}
+
+.wrapper .content .shop-down .divp{
+    left:0px;width:330px;top:0;
+}
+.wrapper .content .shop-down .shop-down_text{
+    left:10px;width:320px;
+}
+.wrapper .content .shop-down .shop-down_text h1{
+    font-size: 26px;
+}
+.wrapper .content .shop-down{
+    height:400px;
+}
+.wrapper .content .shop-down .go-shop{
+    left:112px;
+    top:60px;
+}
+footer{
+    display: flex;flex-direction: column;
+    height:11%;
+}
+footer .footer-item1{
+    width:100%;
+    padding-left:12px;
+}
+footer .footer-item2{
+    width:100%;
+}
+footer .footer-item2 ul{
+    padding-left:100px;
+}
+footer .footer-item3{
+    width:100%;
+}
+footer .footer-item4{
+    width:100%;
+}
+footer .copyright{
+    top:6795px;
+}
+}
