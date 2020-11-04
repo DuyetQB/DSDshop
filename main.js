@@ -1,3 +1,15 @@
+ 
+ document.body.style.backgroundImage = "url('https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2020/07/CTA-bg.jpg')";
+
+
+
+
+
+
+
+
+
+
 window.onscroll = function(){myScroll()};
 
 let nav = document.querySelector("header");
@@ -31,3 +43,6 @@ document.addEventListener("DOMContentLoaded",function(){
        
    }
 },false);
+
+
+
