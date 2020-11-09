@@ -806,7 +806,7 @@ display: none;
     
     .wrapper .content .second-colection .colection-item .colection-item-text
     {
-        top:0;left:140px;
+        top:0;left:152px;
         width:60%;
     }
     .wrapper .content .featured-plants .feature-plants-produces{
@@ -908,6 +908,6 @@ left:20px;
     width:100%;
 }
 .footer .copyright{
-    top:776px;
+    top:786px;
 }
 }
