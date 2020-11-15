@@ -147,7 +147,7 @@ list-style-type: none;
  
 }
 .wrapper .content .first-div .first-div-left h2{
-    position: relative;top:70px;color: rgb(41, 39, 39);
+    position: relative;top:70px;color: rgb(255, 253, 253);
 }
 .wrapper .content .first-div{
     width:100vw;
@@ -158,7 +158,7 @@ list-style-type: none;
     background-repeat:no-repeat ;
     padding-top:10px;
     padding-left: 30px ;
- 
+    background-image :url(https://stc.bindo.vn/uploads/products/details/tranh-con-duong-vao-vuon-hoa-anh-dao-237.jpg);
     border-radius:0px 0px 10px 10px  ;
     -webkit-border-radius:0px 0px 10px 10px  ;
     -moz-border-radius:0px 0px 10px 10px  ;
@@ -167,9 +167,10 @@ list-style-type: none;
 }
 
 .wrapper .content .first-div .cover-h1 h1{
-    font-size: 54px;font-family: 'roboto ';
+    font-size: 54px;font-family: 'Dancing Script', cursive;
     position: relative;
-    color: rgb(37, 36, 36);
+    color: rgb(7, 248, 216);
+    font-weight: bolder;
 }
 .wrapper .content .first-div .cover-h1{
     background-color:transparent;
@@ -759,6 +760,7 @@ display: none;
     }
     .wrapper .content .first-div{
         height:300px;
+        background-image :url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyANlIpGEh7yLKs3BzKURoB9cJvFy1nT_rQg&usqp=CAU);
     }
     .wrapper .content .first-div .cover-h1{
         width:200px;
@@ -767,7 +769,7 @@ display: none;
         font-size: 30px ;color:#07d8e7;
     }
     .wrapper .content .first-div .first-div-left h2{
-        font-size: 19px;color:#0a0a0a;
+        font-size: 19px;
     }
     .wrapper .content .first-div .shopnow{
         top:4px;left:170px;
@@ -808,6 +810,9 @@ display: none;
     {
         top:0;left:152px;
         width:60%;
+    }
+    .wrapper .content .second-colection .colection-item .colection-item-text h3{
+        font-family: 'Dancing Script', cursive;font-size: 20px;
     }
     .wrapper .content .featured-plants .feature-plants-produces{
         display:flex;
