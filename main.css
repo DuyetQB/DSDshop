@@ -804,7 +804,7 @@ display: none;
     .wrapper .content .second-colection .colection-item
     {
         height:100%;
-        left:4px ;
+        left:0px ;
         box-shadow: 0px 0px 0px #fff;
     }
 
@@ -847,7 +847,7 @@ display: none;
 }
 .wrapper .content .need-help .need-help-left{
     width:100%;padding-top:0px;
-    height:50%;
+    height:50%;padding-left: 10px;
 }
 
 .wrapper .content .need-help .need-help-right{
@@ -924,7 +924,7 @@ left:20px;
     width:100%;padding-top: 0px;
 }
 .footer .copyright{
-    top:746px;
+    top:740px;
 }
 }
 
