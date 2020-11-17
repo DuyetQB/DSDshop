@@ -746,14 +746,19 @@ list-style-type: none;
         display:block;
 
     }
-    
+    .wrapper  .main-header{
+        background: rgb(255, 255, 255);
+    }
   .wrapper  .main-header .header-left {
-display:flex;
+width:50%;
 
     }
    .wrapper .main-header .header-left h1{
        font-size: 18px;
-        left:0px;top:18px;
+        left:0px;
+    }
+    .wrapper .main-header .header-right{
+        width:50%;
     }
   .wrapper  .main-header .header-right ul li a{
 display: none;
@@ -895,7 +900,7 @@ left:20px;
 }
 .footer{
     display: flex;flex-direction: column;
-    height:11%;
+   
 }
 .footer .footer-item1{
     width:100%;
