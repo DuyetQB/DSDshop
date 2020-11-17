@@ -16,7 +16,7 @@ let nav = document.querySelector("header");
 let sticky = nav.offsetTop ;
 
 function myScroll(){
-    if(window.pageYOffset >= sticky){
+    if(window.pageYOffset >= 70){
         nav.classList.add("sticky");
     }
     else{
