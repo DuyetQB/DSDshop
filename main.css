@@ -371,7 +371,7 @@ width:100% ;text-align: center;
     display: grid;
   grid-template-columns: 25% 25% 25% 25% ;
   grid-gap: 10px 10px;
-  background: rgb(249, 250, 249);
+  background: rgb(255, 255, 255);
   height:93%;
  padding:40px;
 }
