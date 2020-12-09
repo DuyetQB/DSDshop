@@ -11,8 +11,8 @@
 }
 .wrapper .main-header{
     height:60px;
-   background-image: url(https://indainam.com/wp-content/uploads/2017/10/mau-background-don-gian-06-1024x576.jpg);
-  background-size: contain;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUVWSW0Uaog7GGKtpbvt18KQBWKax2R6Q2g&usqp=CAU);
+  background-size: cover ;
    display:flex;
     flex-direction: row;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@
 .wrapper .sticky{
     position: fixed;
     top:0;
-    background-color: #fff;
+   
     z-index:10;width:100%;
 }
 .wrapper .main-header .header-left{
@@ -117,6 +117,7 @@ font-weight: bold;
 text-transform: uppercase;
 position: relative;line-height: 60px;
 left:0px;
+color: rgb(255, 255, 255);
 }
 .wrapper .main-header .header-right{
     width:70%;
@@ -133,7 +134,7 @@ list-style-type: none;
 }
 .wrapper .main-header .header-right .main-ul .main-li a{
     text-decoration: none;font-size: 20px;
-    color:#1a1a1a;
+    color:#ffffff;
 }
 .wrapper .main-header .header-right .main-ul .main-li a .fa{
     font-size: 36px;
@@ -157,11 +158,11 @@ list-style-type: none;
     height:460px;
    
     background-size: cover ;
-    background-position:right center  ;
+    background-position: center  ;
     background-repeat:no-repeat ;
     padding-top:10px;
     padding-left: 30px ;
-    background-image :url(https://stc.bindo.vn/uploads/products/details/tranh-con-duong-vao-vuon-hoa-anh-dao-237.jpg);
+    background-image :url(https://wallpaperaccess.com/full/345330.jpg);
     border-radius:0px 0px 10px 10px  ;
     -webkit-border-radius:0px 0px 10px 10px  ;
     -moz-border-radius:0px 0px 10px 10px  ;
@@ -214,17 +215,18 @@ background-color: #fc6b6b ;
     height:100px;
    background-color: rgb(255, 255, 255);
 }
-.wrapper .content .colection-wrap,
-.wrapper .content .colection .plant-colection{
-    display: flex;flex-direction: row;
+.wrapper .content .colection-wrap{
+    display: flex;
 }
 
-.wrapper .content .colection .plant-colection{
-   position: relative;left:150px;
-   padding-top: 30px ;
+
+.wrapper .content .colection .colection-item{
+   position: relative;
+   padding-top: 30px ;width: 100%;height:100%;
+   display: flex;padding-left: 30px ;
 }
 
-.wrapper .content .colection .plant-colection .elementor-icon{
+.wrapper .content .colection .colection-item .elementor-icon{
    
     background-color: rgb(206, 190, 190);
     width:40px;
@@ -239,58 +241,19 @@ background-color: #fc6b6b ;
     font-size: 26px;color:green;
 
 }
-.wrapper .content .colection .plant-colection .text-colection,
-.wrapper .content .colection .moneyback .text-moneyback,
-.wrapper .content .colection .freeship .text-freeship{
+.wrapper .content .colection .colection-item .detail-colection-item
+{
     font-weight: 100;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px ;
 }
-.wrapper .content .colection .plant-colection .text-colection h4,
-.wrapper .content .colection .moneyback .text-moneyback h4,
-.wrapper .content .colection .freeship .text-freeship h4{
+.wrapper .content .colection .plant-colection .detail-colection-item h4
+{
 color:grey;font-weight: normal;
 }
-.wrapper .content .colection .freeship{
-position: relative;left:302px;
-display: flex;
-padding-top: 30px;
-}
-.wrapper .content .colection .freeship .elementor-icon{
 
-    background-color: rgb(206, 190, 190);
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
-    justify-content: center;
-    text-align: center;
-    font-size: 26px;color:green;
-    
-}
-.wrapper .content .colection .moneyback{
-position: relative;left:470px;display: flex;
-padding-top: 30px ;
 
-}
-.wrapper .content .colection .moneyback .elementor-icon{
 
-    background-color: rgb(206, 190, 190);
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
-    justify-content: center;
-    text-align: center;
-    font-size: 26px;color:green;
-}
-.wrapper .content .colection .moneyback .elementor-icon i,
-.wrapper .content .colection .plant-colection .elementor-icon i,
-.wrapper .content .colection .freeship .elementor-icon i{
+.wrapper .content .colection .colection-item .elementor-icon i{
     position: relative;top:6px;
 }
 .wrapper .content .second-colection{
@@ -738,6 +701,8 @@ list-style-type: none;
 .footer .copyright p{
     font-size: 18px;
 }
+
+
 @media only screen and (max-width: 739px){
     .wrapper{
         height:6900px;
@@ -787,15 +752,7 @@ display: none;
         flex-direction: column;
         height:214px;
     }
-    .wrapper .content .colection .plant-colection{
-        width:100%;left:10px;
-    }
-    .wrapper .content .colection .freeship{
-        width:100%;left:10px;
-    }
-    .wrapper .content .colection .moneyback{
-        width:100%;left:10px;
-    }
+   
     .wrapper .content .second-colection {
         display: flex;flex-direction: column;
         height:600px;
@@ -944,24 +901,18 @@ left:20px;
     .wrapper .main-header .header-right .main-ul .main-li a{
         font-size: 15px; font-weight: bold;
     }
-    .wrapper .content .colection .plant-colection{
-        left:10px;
+    .wrapper .content .colection .colection-item {
+        padding-left:0px;
     }
-    .wrapper .content .colection .freeship{
-        left:20px;
-    }
-    .wrapper .content .colection .moneyback{
-        left:30px;
-    }
-    .wrapper .content .colection .plant-colection .text-colection h1
-    , .wrapper .content .colection .moneyback .text-moneyback h1,
-     .wrapper .content .colection .freeship .text-freeship h1{
-        font-size: 18px;
-    }
-    .wrapper .content .colection .plant-colection .text-colection h4,
-     .wrapper .content .colection .moneyback .text-moneyback h4, 
-     .wrapper .content .colection .freeship .text-freeship h4{
+    
+     .wrapper .content .colection .colection-item .detail-colection-item h3 {
         font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .wrapper .content .colection .colection-item .detail-colection-item h4{
+        font-size: 12px;
+        font-weight: 100;
     }
     .wrapper .content .second-colection{
         display: grid; grid-template-columns: auto auto ;height:1000px;
