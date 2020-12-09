@@ -7,6 +7,7 @@
     height:4300px;
     overflow: hidden;
     position: relative;
+  
    
 }
 .wrapper .main-header{
@@ -260,6 +261,7 @@ color:grey;font-weight: normal;
     display: flex;flex-direction: row;background-color: rgb(255, 255, 255);
     height:560px;
     padding-top: 50px ;
+    justify-content: center;
   
 
 }
@@ -267,12 +269,12 @@ color:grey;font-weight: normal;
         width:360px ;
         box-shadow: 0 0 5px #333;
         height:80%;
-      margin:10px;
+        margin:10px;
        
         background-size: contain;
         background-repeat: no-repeat;
         position: relative;
-        left: 60px ;
+       
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -948,7 +950,7 @@ left:20px;
 }
 @media only screen and (min-width: 1024px){
 .wrapper{
-    width:1354px;
+    width:1144px;
     margin:0px auto;
 }
 }
