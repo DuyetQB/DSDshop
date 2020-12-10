@@ -736,8 +736,12 @@ display: none;
     }
     .wrapper .content .first-div{
         height:300px;
-      
-    }
+        border-radius: 0px 0px 0px 0px ;
+        -webkit-border-radius: 0px 0px 0px 0px ;
+        -moz-border-radius: 0px 0px 0px 0px ;
+        -ms-border-radius: 0px 0px 0px 0px ;
+        -o-border-radius: 0px 0px 0px 0px ;
+}
     .wrapper .content .first-div .cover-h1{
         width:200px;
     }
