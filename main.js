@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded",function(){
            current ="click2";
        }
        else if(current =="click2"){
-           this.style.color ="black";
+           this.style.color ="white";
            content[0].style.display ="none";
            current ="click1";
        }

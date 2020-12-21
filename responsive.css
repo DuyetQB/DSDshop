@@ -4,18 +4,17 @@
     }
     .wrapper .main-header .wrap-hambuger{
         display:block;
+        color: white;
 
     }
-    .wrapper  .main-header{
-        background: rgb(255, 255, 255);
-    }
+    
   .wrapper  .main-header .header-left {
 width:50%;
 
     }
    .wrapper .main-header .header-left h1{
        font-size: 18px;
-        left:0px;top:0px;color: #000;
+        left:0px;top:0px;
         line-height: 40px ;
     }
     .wrapper .main-header .header-right{
@@ -204,6 +203,7 @@ left:20px;
     .wrapper{
         height:5900px;
     }
+   
     .wrapper .main-header .header-right{
         padding-left:0px;
     }
@@ -214,7 +214,7 @@ left:20px;
         font-size: 15px; font-weight: bold;
     }
     .wrapper .content .colection .colection-item {
-        padding-left:0px;
+        padding-left:0px;justify-content: center;
     }
     
      .wrapper .content .colection .colection-item .detail-colection-item h3 {
@@ -228,12 +228,19 @@ left:20px;
     }
     .wrapper .content .second-colection{
         display: grid; grid-template-columns: auto auto ;height:1000px;
+        
     }
     .wrapper .content .second-colection .colection-item{
-        left:0px;height:60%;
+        left:0px;height:90%;width: 90%;
     }
     .wrapper .content .second-colection .colection-item .colection-item-text{
-        top:50px; width:50%;left:190px;
+        top: 220px; width:50%;left:100px;
+    }
+    .wrapper .content .hot-girls .one-girl .widget-girl-cover .wrap-text{
+        height:100%;padding: 5px;
+    }
+    .wrapper .content .hot-girls .one-girl .widget-girl-cover .wrap-text .wrap-infor{
+        top:0px;
     }
     .wrapper .content .featured-plants .feature-plants-produces{
         display: grid; grid-template-columns: auto auto ;
