@@ -51,10 +51,10 @@ display: none;
     .wrapper .content .first-div .shopnow{
         top:4px;
     }
-    .wrapper .content .colection{
+    .wrapper .content .colection-wrap{
         display:flex;
         flex-direction: column;
-        height:214px;
+        height:224px;
     }
    
     .wrapper .content .second-colection {
