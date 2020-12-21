@@ -270,7 +270,7 @@ color:grey;font-weight: normal;
 
 
 .wrapper .content .colection .colection-item .elementor-icon i{
-    position: relative;
+    position: relative;line-height: 40px ;
 }
 .wrapper .content .second-colection{
     display: flex;flex-direction: row;background-color: rgb(255, 255, 255);
