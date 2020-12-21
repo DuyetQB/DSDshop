@@ -1,0 +1,262 @@
+@media only screen and (max-width: 739px){
+    .wrapper{
+        height:6900px;
+    }
+    .wrapper .main-header .wrap-hambuger{
+        display:block;
+
+    }
+    .wrapper  .main-header{
+        background: rgb(255, 255, 255);
+    }
+  .wrapper  .main-header .header-left {
+width:50%;
+
+    }
+   .wrapper .main-header .header-left h1{
+       font-size: 18px;
+        left:0px;top:0px;color: #000;
+        line-height: 40px ;
+    }
+    .wrapper .main-header .header-right{
+        width:50%;
+    }
+  .wrapper  .main-header .header-right ul li a{
+display: none;
+    }
+    .wrapper .content{
+        height:89%;
+    }
+    .wrapper .content .first-div{
+        height:300px;
+        border-radius: 0px 0px 0px 0px ;
+        -webkit-border-radius: 0px 0px 0px 0px ;
+        -moz-border-radius: 0px 0px 0px 0px ;
+        -ms-border-radius: 0px 0px 0px 0px ;
+        -o-border-radius: 0px 0px 0px 0px ;
+        padding-left: 0px ;
+}
+    .wrapper .content .first-div .cover-h1{
+        width:200px;
+    }
+    .wrapper .content .first-div .cover-h1 h1{
+        font-size: 30px ;color:#07d8e7;
+    }
+    #first-div-background .first-div-left{
+        height: 100%;
+    }
+    .wrapper .content .first-div .first-div-left h2{
+        font-size: 19px;
+    }
+    .wrapper .content .first-div .shopnow{
+        top:4px;
+    }
+    .wrapper .content .colection{
+        display:flex;
+        flex-direction: column;
+        height:214px;
+    }
+   
+    .wrapper .content .second-colection {
+        display: flex;flex-direction: column;
+        height:600px;
+    }
+  
+    .wrapper .content .second-colection .colection-item
+    {
+        height:100%;
+        left:0px ;
+        box-shadow: 0px 0px 0px #fff;
+    }
+
+    .wrapper .content .second-colection .colection-item:hover
+    {
+        
+        box-shadow: 0px 0px 0px #fff;
+    }
+    
+    .wrapper .content .second-colection .colection-item .colection-item-text
+    {
+        top:0;left:162px;
+        width:60%;
+    }
+    .wrapper .content .second-colection .colection-item .colection-item-text h3{
+   font-size: 20px;
+    }
+    .wrapper .content .featured-plants .feature-plants-produces{
+        display:flex;
+        flex-direction: column;
+    }
+    .wrapper .content .featured-plants{
+        height:2695px;
+    }
+    .wrapper .content .featured-plants .featured-plants-text{
+        height: 6%;
+    }
+    .wrapper .content .featured-plants .feature-plants-produces .thumbnail{
+        height:100%;width:100%;
+        padding:0;
+    }
+    .wrapper .content .featured-plants .feature-plants-produces .thumbnail a .thumbnail-image{
+        width:100%;
+    }
+    .wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text{
+        left:0px;
+        top:166px;
+    }
+   
+.wrapper .content .need-help{
+   height:600px;
+    display: flex;flex-direction: column;
+}
+.wrapper .content .need-help .need-help-left{
+    width:100%;padding-top:0px;
+    height:50%;padding-left: 10px;
+}
+
+.wrapper .content .need-help .need-help-right{
+width:100%;
+padding-left:8px;
+padding-top:0px;
+}
+.wrapper .content .hot-girls{
+    display: flex;flex-direction: column;
+    height:1400px;
+}
+.wrapper .content .hot-girls .one-girl{
+    width:100%;
+    height:74%;
+}
+.wrapper .content .hot-girls .two-girl{
+    width:100%;height:70%;
+   
+}
+
+ .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text .wrap-infor{
+top:10px;
+}
+ 
+.wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-girl-img img{
+width:100%;
+}
+
+ 
+.wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text{
+padding:10px;
+left:20px;
+}
+
+.wrapper .content .shop-down .divp{
+    left:0px;width:330px;top:0;
+}
+.wrapper .content .shop-down .shop-down-text{
+    left:10px;width:320px;
+}
+.wrapper .content .shop-down .shop-down-text h1{
+    font-size: 26px;
+}
+.wrapper .content .shop-down{
+    height:400px;
+}
+.wrapper .content .shop-down .go-shop{
+    left:112px;
+    top:60px;
+}
+.footer{
+    display: flex;flex-direction: column;
+   
+}
+.footer .footer-item1 p{
+    top:0px;
+}
+.footer .footer-item1{
+    width:100%;
+    padding-left:12px;
+}
+.footer .footer-item2{
+    width:100%;padding-top: 0px ;
+}
+.footer .footer-item2 .footer-ul{
+  width:100%;
+  text-align: center;
+  justify-content: center;
+}
+.footer .footer-item3{
+    width:100%;padding-top: 0px;
+}
+.footer .footer-item4{
+    width:100%;padding-top: 0px;
+}
+.footer .copyright{
+    top:740px;
+}
+}
+
+
+
+
+@media only screen and (min-width:740px) and (max-width:1023px){
+    .wrapper{
+        height:5900px;
+    }
+    .wrapper .main-header .header-right{
+        padding-left:0px;
+    }
+    .wrapper .main-header .header-left h1{
+        font-size: 18px;
+    }
+    .wrapper .main-header .header-right .main-ul .main-li a{
+        font-size: 15px; font-weight: bold;
+    }
+    .wrapper .content .colection .colection-item {
+        padding-left:0px;
+    }
+    
+     .wrapper .content .colection .colection-item .detail-colection-item h3 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .wrapper .content .colection .colection-item .detail-colection-item h4{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    .wrapper .content .second-colection{
+        display: grid; grid-template-columns: auto auto ;height:1000px;
+    }
+    .wrapper .content .second-colection .colection-item{
+        left:0px;height:60%;
+    }
+    .wrapper .content .second-colection .colection-item .colection-item-text{
+        top:50px; width:50%;left:190px;
+    }
+    .wrapper .content .featured-plants .feature-plants-produces{
+        display: grid; grid-template-columns: auto auto ;
+        grid-gap:0px 0px;
+    }
+    .wrapper .content .featured-plants{
+        height:1700px;
+    }
+    .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text{
+        top:0px;
+    }
+    .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text .wrap-infor{
+        top:10px;
+    }
+    .wrapper .content .shop-down .shop-down-text{
+        left:90px;
+    }
+    .wrapper .content .shop-down .divp{
+        left:60px;
+    }
+    .wrapper .content .shop-down .go-shop{
+        left:300px;
+    }
+}
+@media only screen and (min-width: 1024px){
+.wrapper{
+    width:1360px;
+    margin:0px auto;
+  
+}
+}

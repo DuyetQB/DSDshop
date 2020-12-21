@@ -2,6 +2,10 @@
     margin: 0;padding: 0;box-sizing: border-box;
     
 }
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .wrapper{
     width: 100%;
     height:4300px;
@@ -109,15 +113,15 @@
     width:30% ;
     height:100%;
     position:relative;
-    display: flex;
+    display: flex;padding-top: 10px;
 }
 .wrapper .main-header .header-left img{
-    width:40%;height:100%;
+    width:20%;height:76%;
 }
 .wrapper .main-header .header-left h1{
 font-weight: bold;
 text-transform: uppercase;
-position: relative;line-height: 60px;
+position: relative;
 left:0px;
 color: rgb(255, 255, 255);
 }
@@ -131,8 +135,8 @@ color: rgb(255, 255, 255);
 list-style-type: none;
 }
 .wrapper .main-header .header-right .main-ul .main-li{
-    padding:13px 15px;
-    line-height: 30px ;
+    padding-left:  15px;
+    line-height: 60px ;
 }
 .wrapper .main-header .header-right .main-ul .main-li a{
     text-decoration: none;font-size: 20px;
@@ -154,6 +158,7 @@ list-style-type: none;
 }
 .wrapper .content .first-div .first-div-left h2{
     position: relative;top:70px;color: rgb(255, 253, 253);
+  
 }
 .wrapper .content .first-div{
     width:100vw;
@@ -171,6 +176,9 @@ list-style-type: none;
     -ms-border-radius:0px 0px 10px 10px  ;
     -o-border-radius:0px 0px 10px 10px  ;
 }
+#first-div-background .first-div-left{
+    padding-left: 100px ;
+}
 
 .wrapper .content .first-div .cover-h1 h1{
     font-size: 54px;font-family: 'Dancing Script', cursive;
@@ -183,13 +191,14 @@ list-style-type: none;
     width:430px;
     height:200px;
     position: relative;top:70px;
+   
     cursor: default;
     
 }
 .wrapper .content .first-div .shopnow{
     width:140px;
     height:40px;
-    border: 1px solid rgb(250, 39, 39);
+    
     border-radius: 13px ;
     -webkit-border-radius: 16px ;
     -moz-border-radius: 13px ;
@@ -199,7 +208,8 @@ list-style-type: none;
    text-align: center;
     cursor: pointer ;
     position: relative;
-    top:80px;
+    top:100px;
+    
     background-color: #FC7978 ;
 }
 .wrapper .content .first-div .shopnow h3{
@@ -245,9 +255,13 @@ background-color: #fc6b6b ;
 }
 .wrapper .content .colection .colection-item .detail-colection-item
 {
-    font-weight: 100;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     padding-left: 10px ;
 }
+.wrapper .content .colection .colection-item .detail-colection-item h4{
+    color: rgb(138, 136, 136);
+}
+
 .wrapper .content .colection .plant-colection .detail-colection-item h4
 {
 color:grey;font-weight: normal;
@@ -256,7 +270,7 @@ color:grey;font-weight: normal;
 
 
 .wrapper .content .colection .colection-item .elementor-icon i{
-    position: relative;top:6px;
+    position: relative;
 }
 .wrapper .content .second-colection{
     display: flex;flex-direction: row;background-color: rgb(255, 255, 255);
@@ -268,7 +282,7 @@ color:grey;font-weight: normal;
 }
 .wrapper .content .second-colection .colection-item{
         width:360px ;
-        box-shadow: 0 0 5px #333;
+        box-shadow: 0 0 5px rgb(187, 184, 184);
         height:80%;
         margin:10px;
        
@@ -293,12 +307,15 @@ color:grey;font-weight: normal;
     height:90px;width:100%;position: relative;
     top:272px;padding: 10px 12px;
     font-weight: 100;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
 
 }
 
+.wrapper .content .second-colection .colection-item .colection-item-text h1{
+color: rgb(109, 103, 103);
+}
 .wrapper .content .second-colection .colection-item:hover{
-box-shadow: 0 0 10px #333;
+box-shadow: 0 0 10px rgb(143, 141, 141);
 
 }
 
@@ -323,22 +340,23 @@ background: rgb(255, 255, 254);
 }
 .wrapper .content .featured-plants .featured-plants-text{
 width:100% ;text-align: center;
+height:20%;
 
 }
 .wrapper .content .featured-plants .featured-plants-text h1{
     font-weight: 900;
-    font-family: 'Poppins',sans-serif;
+  
 }
 .wrapper .content .featured-plants .featured-plants-text p{
-    font-size: 19px;
-    font-family: 'roboto'
+    font-size: 19px;position: relative; top:40px;
+ 
 }
 .wrapper .content .featured-plants .feature-plants-produces{
     display: grid;
   grid-template-columns: 25% 25% 25% 25% ;
   grid-gap: 10px 10px;
   background: rgb(255, 255, 255);
-  height:93%;
+  height:80%;
  padding:40px;
 }
 .wrapper .content .featured-plants .feature-plants-produces .thumbnail{
@@ -349,18 +367,18 @@ width:100% ;text-align: center;
   position: relative;
 
 }
-.wrapper .content .featured-plants .feature-plants-produces .thumbnail a >img{
+.wrapper .content .featured-plants .feature-plants-produces .thumbnail a .thumbnail-image{
     width:100%;
-    object-fit:contain;
+    object-fit:cover;
     height:100%;
-    position: relative;bottom:37px;
+    position: relative;
 
 }
 .wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text{
     position: absolute  ;
   
     background-color:transparent;
-left:0px;top:254px;
+left:40px;bottom:20px;
 
    
 }
@@ -375,23 +393,27 @@ left:0px;top:254px;
 
 
 
+
 .wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text p
 {
-    font-family: 'Poppins',sans-serif;
+  
     font-weight: 500;
 }
 
 .wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text .name{
-    font-family:'roboto';
+   
    color:gray;
 }
 
 .wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text .price{
-   font-family: 'Times New Roman', Times, serif;
+
  font-weight: bolder;
  color:#333;
  font-size: 17px;
  
+}
+.wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text .price del{
+margin-right: 10px ;color: rgb(126, 124, 124);
 }
 .wrapper .content .need-help-wrap,
 .wrapper .content .hot-girls-wrap{
@@ -411,7 +433,7 @@ padding-left:60px;
 .wrapper .content .need-help .need-help-left a{
     transition: all 0.6s ease ;
     text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
     color:#fc6b6b;
     -webkit-transition: all 0.6s ease ;
     -moz-transition: all 0.6s ease ;
@@ -495,7 +517,7 @@ object-fit: cover;  border-radius: 30px ;
     position: relative;top:70px;
 }
 .wrapper .content .hot-girls .one-girl .widget-girl-cover .wrap-text .wrap-infor h4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     font-weight: bolder;
 }
 
@@ -555,7 +577,7 @@ height:100%;
  
  .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text .wrap-infor h4
  {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
      font-weight: bolder;
  }
 
@@ -593,7 +615,7 @@ top:20px;
     position: relative;
     left:560px;
     top:80px;
-    padding-top: 10px;
+    padding-top: 6px;
     border-radius: 15px ;
     -webkit-border-radius: 15px ;
     -moz-border-radius: 15px ;
@@ -706,257 +728,3 @@ list-style-type: none;
 }
 
 
-@media only screen and (max-width: 739px){
-    .wrapper{
-        height:6900px;
-    }
-    .wrapper .main-header .wrap-hambuger{
-        display:block;
-
-    }
-    .wrapper  .main-header{
-        background: rgb(255, 255, 255);
-    }
-  .wrapper  .main-header .header-left {
-width:50%;
-
-    }
-   .wrapper .main-header .header-left h1{
-       font-size: 18px;
-        left:0px;
-    }
-    .wrapper .main-header .header-right{
-        width:50%;
-    }
-  .wrapper  .main-header .header-right ul li a{
-display: none;
-    }
-    .wrapper .content{
-        height:89%;
-    }
-    .wrapper .content .first-div{
-        height:300px;
-        border-radius: 0px 0px 0px 0px ;
-        -webkit-border-radius: 0px 0px 0px 0px ;
-        -moz-border-radius: 0px 0px 0px 0px ;
-        -ms-border-radius: 0px 0px 0px 0px ;
-        -o-border-radius: 0px 0px 0px 0px ;
-}
-    .wrapper .content .first-div .cover-h1{
-        width:200px;
-    }
-    .wrapper .content .first-div .cover-h1 h1{
-        font-size: 30px ;color:#07d8e7;
-    }
-    .wrapper .content .first-div .first-div-left h2{
-        font-size: 19px;
-    }
-    .wrapper .content .first-div .shopnow{
-        top:4px;left:170px;
-    }
-    .wrapper .content .colection{
-        display:flex;
-        flex-direction: column;
-        height:214px;
-    }
-   
-    .wrapper .content .second-colection {
-        display: flex;flex-direction: column;
-        height:600px;
-    }
-  
-    .wrapper .content .second-colection .colection-item
-    {
-        height:100%;
-        left:0px ;
-        box-shadow: 0px 0px 0px #fff;
-    }
-
-    .wrapper .content .second-colection .colection-item:hover
-    {
-        
-        box-shadow: 0px 0px 0px #fff;
-    }
-    
-    .wrapper .content .second-colection .colection-item .colection-item-text
-    {
-        top:0;left:132px;
-        width:60%;
-    }
-    .wrapper .content .second-colection .colection-item .colection-item-text h3{
-        font-family: 'Dancing Script', cursive;font-size: 20px;
-    }
-    .wrapper .content .featured-plants .feature-plants-produces{
-        display:flex;
-        flex-direction: column;
-    }
-    .wrapper .content .featured-plants{
-        height:2695px;
-    }
-    .wrapper .content .featured-plants .feature-plants-produces .thumbnail{
-        height:100%;width:100%;
-        padding:0;
-    }
-    .wrapper .content .featured-plants .feature-plants-produces .thumbnail a>img{
-        width:100%;
-    }
-    .wrapper .content .featured-plants .feature-plants-produces .thumbnail .produce-text{
-        left:0px;
-        top:166px;
-    }
-   
-.wrapper .content .need-help{
-   height:600px;
-    display: flex;flex-direction: column;
-}
-.wrapper .content .need-help .need-help-left{
-    width:100%;padding-top:0px;
-    height:50%;padding-left: 10px;
-}
-
-.wrapper .content .need-help .need-help-right{
-width:100%;
-padding-left:8px;
-padding-top:0px;
-}
-.wrapper .content .hot-girls{
-    display: flex;flex-direction: column;
-    height:1400px;
-}
-.wrapper .content .hot-girls .one-girl{
-    width:100%;
-    height:74%;
-}
-.wrapper .content .hot-girls .two-girl{
-    width:100%;height:70%;
-   
-}
-
- .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text .wrap-infor{
-top:10px;
-}
- 
-.wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-girl-img img{
-width:100%;
-}
-
- 
-.wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text{
-padding:10px;
-left:20px;
-}
-
-.wrapper .content .shop-down .divp{
-    left:0px;width:330px;top:0;
-}
-.wrapper .content .shop-down .shop-down-text{
-    left:10px;width:320px;
-}
-.wrapper .content .shop-down .shop-down-text h1{
-    font-size: 26px;
-}
-.wrapper .content .shop-down{
-    height:400px;
-}
-.wrapper .content .shop-down .go-shop{
-    left:112px;
-    top:60px;
-}
-.footer{
-    display: flex;flex-direction: column;
-   
-}
-.footer .footer-item1 p{
-    top:0px;
-}
-.footer .footer-item1{
-    width:100%;
-    padding-left:12px;
-}
-.footer .footer-item2{
-    width:100%;padding-top: 0px ;
-}
-.footer .footer-item2 .footer-ul{
-  width:100%;
-  text-align: center;
-  justify-content: center;
-}
-.footer .footer-item3{
-    width:100%;padding-top: 0px;
-}
-.footer .footer-item4{
-    width:100%;padding-top: 0px;
-}
-.footer .copyright{
-    top:740px;
-}
-}
-
-
-
-
-@media only screen and (min-width:740px) and (max-width:1023px){
-    .wrapper{
-        height:5900px;
-    }
-    .wrapper .main-header .header-right{
-        padding-left:0px;
-    }
-    .wrapper .main-header .header-left h1{
-        font-size: 18px;
-    }
-    .wrapper .main-header .header-right .main-ul .main-li a{
-        font-size: 15px; font-weight: bold;
-    }
-    .wrapper .content .colection .colection-item {
-        padding-left:0px;
-    }
-    
-     .wrapper .content .colection .colection-item .detail-colection-item h3 {
-        font-size: 14px;
-        font-weight: bold;
-    }
-    
-    .wrapper .content .colection .colection-item .detail-colection-item h4{
-        font-size: 12px;
-        font-weight: 100;
-    }
-    .wrapper .content .second-colection{
-        display: grid; grid-template-columns: auto auto ;height:1000px;
-    }
-    .wrapper .content .second-colection .colection-item{
-        left:0px;height:60%;
-    }
-    .wrapper .content .second-colection .colection-item .colection-item-text{
-        top:50px; width:50%;left:190px;
-    }
-    .wrapper .content .featured-plants .feature-plants-produces{
-        display: grid; grid-template-columns: auto auto ;
-        grid-gap:0px 0px;
-    }
-    .wrapper .content .featured-plants{
-        height:1700px;
-    }
-    .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text{
-        top:0px;
-    }
-    .wrapper .content .hot-girls .two-girl .widget-girl-cover .wrap-text .wrap-infor{
-        top:10px;
-    }
-    .wrapper .content .shop-down .shop-down-text{
-        left:90px;
-    }
-    .wrapper .content .shop-down .divp{
-        left:60px;
-    }
-    .wrapper .content .shop-down .go-shop{
-        left:300px;
-    }
-}
-@media only screen and (min-width: 1024px){
-.wrapper{
-    width:1354px;
-    margin:0px auto;
-  
-}
-}
