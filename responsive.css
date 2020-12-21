@@ -188,8 +188,13 @@ left:20px;
     width:100%;padding-top: 0px;
 }
 .footer .copyright{
-    top:740px;
+    top:740px;font-size: 10px ;
+    display: none;
 }
+.footer .copyright p{
+    display: none;
+}
+
 }
 
 
